@@ -1,0 +1,27 @@
+{
+  "name": "timeout-bare-bone",
+  "version": "1.0.0",
+  "description": "1. fork this repository 2. clone forked repo to your machine 3. initialize package.json 4. install nodemon locally and try to tun timeout.js with it 5. install mocha locally and write test for timeout() function 6. push to your forked repo, send me a link 7. celebrate",
+  "main": "timeout.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djengobarm/timeout-bare-bone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djengobarm/timeout-bare-bone/issues"
+  },
+  "homepage": "https://github.com/Djengobarm/timeout-bare-bone#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
